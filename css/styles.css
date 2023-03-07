@@ -1,0 +1,166 @@
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 700;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+/* Headings */
+.large-heading{
+    font-weight: 900;
+    font-size: 3.2rem;
+    line-height: 1.5;
+}
+
+.section-heading{
+    line-height: 1.5;
+    font-size: 2.8rem;
+}
+
+/* Sections */
+.colored-section{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section{
+    background-color: #fff;
+}
+
+/* Containers */
+.container-fluid{
+    padding: 7% 15%;
+}
+
+/* Navigation Bar */
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.navbar-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3rem;
+}
+
+/* Title Section */
+#title .container-fluid{
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+/* Download Button */
+.download-button{
+    margin: 5% 1% 1% 1%;
+}
+
+/* Title Image */
+.img-box{
+    position: relative;
+}
+
+.rotated{
+    width: 60%;
+    transform: rotate(20deg);
+    position: absolute;
+    left: 30%;
+}
+
+/* Features Section */
+#features{
+    position: relative;
+}
+
+.feature-title{
+    font-size: 1.5rem;
+}
+
+.feature-box{
+    padding: 4.5%;
+}
+
+.feature-icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.feature-icon:hover{
+    color: #ff4c68;
+}
+
+
+/* Testimonials Section */
+#testimonials{
+    background-color: #ef8172;
+}
+
+.testimonial-text{
+    line-height: 1.5;
+    font-size: 2.8rem;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+#press{
+    padding-bottom: 3%;
+    background-color: #ef8172;
+}
+
+.press-image{
+    width: 100px;
+    margin: 20px 20px 50px;
+}
+
+
+/* Pricing Section */
+#pricing{
+    padding: 100px;
+}
+
+.pricing-element{
+    padding: 5% 2%;
+}
+
+.pricing-text {
+    line-height: 1.5;
+    font-size: 2.8rem;
+}
+
+
+/* Call to Action Section */
+
+
+/* Footer Section */
+.footer-icon{
+    margin: 20px 10px;
+}
+
+@media (max-width:1028px){
+
+    #title .container-fluid{
+    text-align: center;
+    }
+
+    .rotated{
+        position: static;
+        transform: rotate(0);
+        margin-top: 6%;
+    }
+}
